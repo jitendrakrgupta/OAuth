@@ -2,6 +2,8 @@ require 'net/http'
 require 'rest-client'
 require 'json'
 
+# OAuth Class to request and acquire a token
+
 module OAuth
   class Token
     def initialize(tenant_id, subscription_id, client_id, client_secret,
